@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
+    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
+    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
         "projectName": "SistemaDeVentasCafe",
-        "projectPath": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
-        "packagesPath": "C:\\Users\\ianga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\obj\\",
+        "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "packagesPath": "C:\\Users\\cabed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ianga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net8.0": {
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.5, )"
@@ -79,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

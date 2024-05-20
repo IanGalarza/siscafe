@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SistemaDeVentasCafe.Models;
+﻿namespace SistemaDeVentasCafe.Models;
 
 public partial class Cliente
 {

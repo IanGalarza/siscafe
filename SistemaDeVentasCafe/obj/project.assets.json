@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1593,6 +1609,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -4516,25 +4547,26 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ianga\\.nuget\\packages\\": {}
+    "C:\\Users\\cabed\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+      "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
       "projectName": "SistemaDeVentasCafe",
-      "projectPath": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
-      "packagesPath": "C:\\Users\\ianga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianga\\source\\repos\\SistemaDeVentasCafe\\SistemaDeVentasCafe\\obj\\",
+      "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+      "packagesPath": "C:\\Users\\cabed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ianga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4542,7 +4574,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0": {
@@ -4565,6 +4597,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.5, )"
@@ -4599,7 +4635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
