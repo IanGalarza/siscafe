@@ -5,7 +5,6 @@ using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
 using SistemaDeVentasCafe.Service.IService;
 using SistemaDeVentasCafe.UnitOfWork;
-using System.Net;
 
 namespace SistemaDeVentasCafe.Service
 {
