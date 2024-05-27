@@ -1,4 +1,8 @@
-﻿namespace SistemaDeVentasCafe.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
+namespace SistemaDeVentasCafe.Models;
 
 public partial class Cliente
 {
@@ -13,4 +17,7 @@ public partial class Cliente
     public int? Telefono { get; set; }
 
     public string? CorreoElectronico { get; set; }
+
+    [JsonIgnore]
+    public virtual ICollection<Factura> Facturas { get; set; } = new List<Factura>();
 }

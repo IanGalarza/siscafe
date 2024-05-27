@@ -28,9 +28,11 @@ builder.Services.AddScoped<APIResponse>();
 //repository
 builder.Services.AddScoped<IRepositoryGeneric<Cliente>, RepositoryCliente>();
 builder.Services.AddScoped<IRepositoryGeneric<Producto>, RepositoryProducto>();
+builder.Services.AddScoped<IRepositoryGeneric<Factura>, RepositoryFactura>();
 //service
 builder.Services.AddScoped<IServiceGeneric<ClienteUpdateDto, ClienteCreateDto>, ServiceCliente>();
 builder.Services.AddScoped<IServiceGeneric<ProductoUpdateDto, ProductoCreateDto>, ServiceProducto>();
+builder.Services.AddScoped<IServiceGeneric<FacturaUpdateDto, FacturaCreateDto>, ServiceFactura>();
 //unitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
@@ -54,3 +56,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

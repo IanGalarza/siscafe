@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
+    "C:\\Users\\ianga\\OneDrive\\Escritorio\\proyecto final ing software\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
+    "C:\\Users\\ianga\\OneDrive\\Escritorio\\proyecto final ing software\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "projectUniqueName": "C:\\Users\\ianga\\OneDrive\\Escritorio\\proyecto final ing software\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
         "projectName": "SistemaDeVentasCafe",
-        "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
-        "packagesPath": "C:\\Users\\cabed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\obj\\",
+        "projectPath": "C:\\Users\\ianga\\OneDrive\\Escritorio\\proyecto final ing software\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "packagesPath": "C:\\Users\\ianga\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ianga\\OneDrive\\Escritorio\\proyecto final ing software\\siscafe\\SistemaDeVentasCafe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ianga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

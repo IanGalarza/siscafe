@@ -1,4 +1,8 @@
-﻿namespace SistemaDeVentasCafe.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
+namespace SistemaDeVentasCafe.Models;
 
 public partial class Producto
 {
@@ -13,4 +17,7 @@ public partial class Producto
     public int? NumeroDeLote { get; set; }
 
     public DateOnly? FechaVencimiento { get; set; }
+
+    [JsonIgnore]
+    public virtual ICollection<Facturaproducto> Facturaproductos { get; set; } = new List<Facturaproducto>();
 }

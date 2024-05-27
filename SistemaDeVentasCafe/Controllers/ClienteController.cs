@@ -17,6 +17,7 @@ namespace SistemaDeVentasCafe.Controllers
         }
 
         [HttpGet]
+        [Route("Listar")]
         [ProducesResponseType(StatusCodes.Status200OK)] //documentación
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -26,7 +27,8 @@ namespace SistemaDeVentasCafe.Controllers
             return Utilidades.AyudaControlador(result);
         }
 
-        [HttpGet("{idCliente}")]
+        [HttpGet]
+        [Route("Consultar/{idCliente:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
@@ -37,6 +39,7 @@ namespace SistemaDeVentasCafe.Controllers
         }
 
         [HttpPost]
+        [Route("Registrar")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -48,6 +51,7 @@ namespace SistemaDeVentasCafe.Controllers
         }
 
         [HttpPut]
+        [Route("Modificar")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -57,7 +61,8 @@ namespace SistemaDeVentasCafe.Controllers
             return Utilidades.AyudaControlador(result);
         }
 
-        [HttpDelete("{idCliente}")]
+        [HttpDelete]
+        [Route("Anular/{idCliente:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

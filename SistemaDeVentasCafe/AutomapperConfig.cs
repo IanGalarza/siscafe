@@ -13,6 +13,8 @@ namespace SistemaDeVentasCafe
             CreateMap<Cliente, ClienteUpdateDto>().ReverseMap();
             CreateMap<Producto, ProductoCreateDto>().ReverseMap();
             CreateMap<Producto, ProductoUpdateDto>().ReverseMap();
+            CreateMap<Factura, FacturaCreateDto>().ReverseMap();
+            CreateMap<Factura, FacturaUpdateDto>().ReverseMap();
         }
     }
 }

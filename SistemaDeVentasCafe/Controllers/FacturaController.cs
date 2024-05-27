@@ -3,15 +3,17 @@ using SistemaDeVentasCafe.CodigoRepetido;
 using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
 using SistemaDeVentasCafe.Service.IService;
+using SistemaDeVentasCafe.Service;
 
 namespace SistemaDeVentasCafe.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductoController : ControllerBase
+    public class FacturaController : Controller
     {
-        private readonly IServiceGeneric<ProductoUpdateDto, ProductoCreateDto> _service;
-        public ProductoController(IServiceGeneric<ProductoUpdateDto, ProductoCreateDto> service)
+        private readonly IServiceGeneric<FacturaUpdateDto, FacturaCreateDto> _service;
+
+        public FacturaController(IServiceGeneric<FacturaUpdateDto, FacturaCreateDto> service)
         {
             _service = service;
         }
@@ -44,31 +46,20 @@ namespace SistemaDeVentasCafe.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public async Task<ActionResult<APIResponse>> Registrar([FromBody] ProductoCreateDto producto)
+        public async Task<ActionResult<APIResponse>> Registrar([FromBody] FacturaCreateDto Factura)
         {
-            var result = await _service.Crear(producto);
+            var result = await _service.Crear(Factura);
             return Utilidades.AyudaControlador(result);
         }
 
-        [HttpPut]
-        [Route("Modificar")]
+        [HttpGet]
+        [Route("Imprimir/{idProducto:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<APIResponse>> Modificar([FromBody] ProductoUpdateDto producto)
-        {
-            var result = await _service.Actualizar(producto);
-            return Utilidades.AyudaControlador(result);
-        }
 
-        [HttpDelete]
-        [Route("Anular/{idProducto:int}")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<APIResponse>> Anular(int idProducto)
+        public async Task<ActionResult<APIResponse>> Imprimir(int idProducto)
         {
-            var result = await _service.Eliminar(idProducto);
+            var result = await ((ServiceFactura)_service).Imprimir(idProducto);
             return Utilidades.AyudaControlador(result);
         }
     }
