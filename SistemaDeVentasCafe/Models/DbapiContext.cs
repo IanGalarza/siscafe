@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace SistemaDeVentasCafe.Models;
 
@@ -9,18 +7,14 @@ public partial class DbapiContext : DbContext
     public DbapiContext()
     {
     }
-
     public DbapiContext(DbContextOptions<DbapiContext> options)
         : base(options)
     {
     }
 
     public virtual DbSet<Cliente> Clientes { get; set; }
-
     public virtual DbSet<Factura> Facturas { get; set; }
-
     public virtual DbSet<Facturaproducto> Facturaproductos { get; set; }
-
     public virtual DbSet<Producto> Productos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -96,6 +90,5 @@ public partial class DbapiContext : DbContext
 
         OnModelCreatingPartial(modelBuilder);
     }
-
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

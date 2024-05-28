@@ -1,8 +1,79 @@
 [
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
+    "Method": "Anular",
+    "RelativePath": "api/Cliente/Anular/{idCliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
+    "Method": "Consultar",
+    "RelativePath": "api/Cliente/Consultar/{idCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
     "Method": "Listar",
-    "RelativePath": "api/Cliente",
+    "RelativePath": "api/Cliente/Listar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -35,48 +106,8 @@
   },
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
-    "Method": "Registrar",
-    "RelativePath": "api/Cliente",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "cliente",
-        "Type": "SistemaDeVentasCafe.DTOs.ClienteCreateDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 201
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 500
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
     "Method": "Modificar",
-    "RelativePath": "api/Cliente",
+    "RelativePath": "api/Cliente/Modificar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -115,14 +146,54 @@
   },
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
+    "Method": "Registrar",
+    "RelativePath": "api/Cliente/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "SistemaDeVentasCafe.DTOs.ClienteCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.FacturaController",
     "Method": "Consultar",
-    "RelativePath": "api/Cliente/{idCliente}",
+    "RelativePath": "api/Factura/Consultar/{idFactura}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "idCliente",
+        "Name": "idFactura",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -145,15 +216,120 @@
     ]
   },
   {
-    "ContainingType": "SistemaDeVentasCafe.Controllers.ClienteController",
+    "ContainingType": "SistemaDeVentasCafe.Controllers.FacturaController",
+    "Method": "Imprimir",
+    "RelativePath": "api/Factura/Imprimir/{idFactura}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFactura",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.FacturaController",
+    "Method": "Listar",
+    "RelativePath": "api/Factura/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.FacturaController",
+    "Method": "Registrar",
+    "RelativePath": "api/Factura/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facturaCreateDto",
+        "Type": "SistemaDeVentasCafe.DTOs.FacturaCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
     "Method": "Anular",
-    "RelativePath": "api/Cliente/{idCliente}",
+    "RelativePath": "api/Producto/Anular/{idProducto}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "idCliente",
+        "Name": "idProducto",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -186,8 +362,39 @@
   },
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
+    "Method": "Consultar",
+    "RelativePath": "api/Producto/Consultar/{idProducto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProducto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
     "Method": "Listar",
-    "RelativePath": "api/Producto",
+    "RelativePath": "api/Producto/Listar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -220,48 +427,8 @@
   },
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
-    "Method": "Registrar",
-    "RelativePath": "api/Producto",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "producto",
-        "Type": "SistemaDeVentasCafe.DTOs.ProductoCreateDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 201
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 500
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
     "Method": "Modificar",
-    "RelativePath": "api/Producto",
+    "RelativePath": "api/Producto/Modificar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -300,15 +467,15 @@
   },
   {
     "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
-    "Method": "Consultar",
-    "RelativePath": "api/Producto/{idCliente}",
-    "HttpMethod": "GET",
+    "Method": "Registrar",
+    "RelativePath": "api/Producto/Registrar",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "idCliente",
-        "Type": "System.Int32",
+        "Name": "producto",
+        "Type": "SistemaDeVentasCafe.DTOs.ProductoCreateDto",
         "IsRequired": true
       }
     ],
@@ -320,38 +487,7 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 500
-      }
-    ]
-  },
-  {
-    "ContainingType": "SistemaDeVentasCafe.Controllers.ProductoController",
-    "Method": "Anular",
-    "RelativePath": "api/Producto/{idCliente}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idCliente",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "StatusCode": 201
       },
       {
         "Type": "System.Void",

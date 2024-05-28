@@ -31,7 +31,6 @@ namespace SistemaDeVentasCafe.Controllers
         [Route("Consultar/{idCliente:int}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
         public async Task<ActionResult<APIResponse>> Consultar(int idCliente)
         {
             var result = await _service.ObtenerPorId(idCliente);
@@ -43,7 +42,6 @@ namespace SistemaDeVentasCafe.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public async Task<ActionResult<APIResponse>> Registrar([FromBody] ClienteCreateDto cliente)
         {
             var result = await _service.Crear(cliente);

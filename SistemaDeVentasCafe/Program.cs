@@ -29,10 +29,11 @@ builder.Services.AddScoped<APIResponse>();
 builder.Services.AddScoped<IRepositoryGeneric<Cliente>, RepositoryCliente>();
 builder.Services.AddScoped<IRepositoryGeneric<Producto>, RepositoryProducto>();
 builder.Services.AddScoped<IRepositoryGeneric<Factura>, RepositoryFactura>();
+builder.Services.AddScoped<IRepositoryFacturaProducto, RepositoryFacturaProducto>();
 //service
 builder.Services.AddScoped<IServiceGeneric<ClienteUpdateDto, ClienteCreateDto>, ServiceCliente>();
 builder.Services.AddScoped<IServiceGeneric<ProductoUpdateDto, ProductoCreateDto>, ServiceProducto>();
-builder.Services.AddScoped<IServiceGeneric<FacturaUpdateDto, FacturaCreateDto>, ServiceFactura>();
+builder.Services.AddScoped<IServiceFactura, ServiceFactura>();
 //unitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 

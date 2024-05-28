@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SistemaDeVentasCafe.Models;
 using System.Net;
 
@@ -63,6 +62,13 @@ namespace SistemaDeVentasCafe.CodigoRepetido
             apiresponse.fueExitoso = true;
             apiresponse.statusCode = HttpStatusCode.OK;
             apiresponse.Resultado = objs;
+            return apiresponse;
+        }
+
+        public static APIResponse ConflictedResponse(APIResponse apiresponse) //respuesta para los conflicted
+        {
+            apiresponse.fueExitoso = false;
+            apiresponse.statusCode = HttpStatusCode.Conflict;
             return apiresponse;
         }
     }

@@ -5,7 +5,6 @@ using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
 using SistemaDeVentasCafe.Service.IService;
 using SistemaDeVentasCafe.UnitOfWork;
-using System.Net;
 
 namespace SistemaDeVentasCafe.Service
 {
@@ -57,11 +56,7 @@ namespace SistemaDeVentasCafe.Service
             }
             catch (Exception ex)
             {
-                _logger.LogError("Ocurrio un error inesperado. Error: " + ex.Message);
-                _apiresponse.fueExitoso = false;
-                _apiresponse.statusCode = HttpStatusCode.InternalServerError;
-                _apiresponse.Errores = new List<string> { ex.ToString() }; //lista para mantener el error
-                return _apiresponse;
+                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
             }
         }
 

@@ -14,7 +14,7 @@ namespace SistemaDeVentasCafe.Repository
 
         public async Task<Factura?> ObtenerPorId(int id) => await _context.Facturas.FindAsync(id);
 
-        public async Task<List<Factura>> ListarTodos() => await _context.Facturas.AsNoTracking().Include(c => c.fCliente).Include(d => d.Lista_De_Productos).ToListAsync();
+        public async Task<List<Factura>> ListarTodos() => await _context.Facturas.AsNoTracking().Include(f => f.fCliente).Include(f => f.Lista_De_Productos).ToListAsync();
 
         public async Task Crear(Factura cliente) => await _context.Facturas.AddAsync(cliente);
 

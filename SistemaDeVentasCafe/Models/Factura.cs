@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SistemaDeVentasCafe.Models;
+﻿namespace SistemaDeVentasCafe.Models;
 
 public partial class Factura
 {
@@ -15,7 +12,7 @@ public partial class Factura
 
     public decimal? PrecioTotal { get; set; }
 
-    public int? IdCliente { get; set; }
+    public int IdCliente { get; set; }
 
     public bool? EstadoPago { get; set; }
 
@@ -37,14 +34,11 @@ public partial class Factura
             pago = "Pagado";
         }
         factura += "\r\n" + "Estado de pago: " + pago;
-
         factura += "\r\n" + "Lista de Productos: ";
-
         foreach (Facturaproducto f in Lista_De_Productos)
         {
             factura += "\r\n" + "Id Producto: " + f.IdProducto + ", Cantidad: " + f.CantidadDelProducto;
         }
-
         return factura;
     }
 }
