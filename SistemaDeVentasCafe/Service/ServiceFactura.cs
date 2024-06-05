@@ -5,8 +5,6 @@ using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
 using SistemaDeVentasCafe.Service.IService;
 using SistemaDeVentasCafe.UnitOfWork;
-using iTextSharp;
-using System.Reflection.Metadata;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
 
@@ -50,14 +48,14 @@ namespace SistemaDeVentasCafe.Service
         {
             try
             {
-                var Factura = await _unitOfWork.repositoryFactura.ObtenerPorId(id);
-                if (Factura == null)
+                var factura = await _unitOfWork.repositoryFactura.ObtenerPorId(id);
+                if (factura == null)
                 {
                     _logger.LogError("No existe factura con ese id.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 _logger.LogInformation("Factura traida con exito.");
-                return Utilidades.OKResponse(Factura, _apiresponse);
+                return Utilidades.OKResponse(_mapper.Map<FacturaGetDto>(factura), _apiresponse);
             }
             catch (Exception ex)
             {
@@ -109,6 +107,7 @@ namespace SistemaDeVentasCafe.Service
                 factura.CantidadProductos = productosFinales.Count();
                 factura.Descripcion = listaprod;
                 factura.PrecioTotal = precioFinal;
+                factura.EstadoPago = false;
                 factura.FechaFactura = DateOnly.FromDateTime(DateTime.Now); //el momento de generar la factura
                 await _unitOfWork.repositoryFactura.Crear(factura);
                 await _unitOfWork.Save();
@@ -121,7 +120,7 @@ namespace SistemaDeVentasCafe.Service
             }
         }
 
-        public async Task<APIResponse> Imprimir(int id) //aregle lo de llamar a la dbapi
+        public async Task<APIResponse> Imprimir(int id)
         {
             try
             {
@@ -134,23 +133,21 @@ namespace SistemaDeVentasCafe.Service
                 _logger.LogInformation("Factura traida con exito.");
                 var listaProductos = await _unitOfWork.repositoryFacturaProducto.ListarTodos();
                 listaProductos = listaProductos.ToList();
-
                 //Creacion del PDF.
-
                 string logpath = @"C:\Users\" + Environment.UserName + @"\Downloads\factura" + Factura.IdFactura.ToString() + ".pdf";
-               /*            if (!System.IO.File.Exists(logpath))
-                          {
-                              FileStream fs = System.IO.File.Create(logpath);
-                              fs.Close();
-                          }    
-                          System.IO.File.AppendAllText(logpath, Factura.ToString());
-          */
+               /*if (!System.IO.File.Exists(logpath))
+                    {
+                        FileStream fs = System.IO.File.Create(logpath);
+                        fs.Close();
+                    }    
+                System.IO.File.AppendAllText(logpath, Factura.ToString());
+                */
                 iTextSharp.text.Document doc = new iTextSharp.text.Document();
                 PdfWriter.GetInstance(doc, new FileStream(logpath, FileMode.Create));
                 doc.Open();
                 doc.Add(new Paragraph(Factura.ToString()));
                 doc.Close();
-                return Utilidades.OKResponse(Factura, _apiresponse);          
+                return Utilidades.CreatedResponse(_apiresponse); //puse created para q no muestre los datos el swgger.
                     
             }
             catch (Exception ex)

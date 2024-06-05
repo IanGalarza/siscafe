@@ -13,7 +13,7 @@ namespace SistemaDeVentasCafe.Repository
             _context = context;
         }
 
-        public async Task<Cobranza> ObtenerPorId(int id) => await _context.Cobranzas.FindAsync(id);
+        public async Task<Cobranza?> ObtenerPorId(int id) => await _context.Cobranzas.FindAsync(id);
 
         public async Task<List<Cobranza>> ListarTodos() => await _context.Cobranzas.AsNoTracking().ToListAsync();
 

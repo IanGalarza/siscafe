@@ -5,24 +5,15 @@ namespace SistemaDeVentasCafe.Models;
 public partial class Factura
 {
     public int IdFactura { get; set; }
-
     public DateOnly? FechaFactura { get; set; }
-
     public int? CantidadProductos { get; set; }
-
     public string? Descripcion { get; set; }
-
     public decimal? PrecioTotal { get; set; }
-
     public int IdCliente { get; set; }
-
     public bool? EstadoPago { get; set; }
-
     [JsonIgnore]
     public virtual ICollection<Cobranza> Cobranzas { get; set; } = new List<Cobranza>();
-
     public virtual ICollection<Facturaproducto> Lista_De_Productos { get; set; } = new List<Facturaproducto>();
-
     public virtual Cliente? fCliente { get; set; }
 
     public override string ToString()

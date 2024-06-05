@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace SistemaDeVentasCafe.Models;
 
@@ -16,23 +14,18 @@ public partial class DbapiContext : DbContext
     }
 
     public virtual DbSet<Cliente> Clientes { get; set; }
-
     public virtual DbSet<Cobranza> Cobranzas { get; set; }
-
     public virtual DbSet<Factura> Facturas { get; set; }
-
     public virtual DbSet<Facturaproducto> Facturaproductos { get; set; }
-
     public virtual DbSet<Mediodepago> Mediodepagos { get; set; }
-
     public virtual DbSet<Producto> Productos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
     { }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         //ModelBuilder Cliente
-
         modelBuilder.Entity<Cliente>(entity =>
         {
             entity.HasKey(e => e.IdCliente).HasName("PK__CLIENTE__D59466421629B4E8");
@@ -52,7 +45,6 @@ public partial class DbapiContext : DbContext
         });
 
         //ModeBuilder Cobranza
-
         modelBuilder.Entity<Cobranza>(entity =>
         {
             entity.HasKey(e => e.IdCobranza).HasName("PK__COBRANZA__7B29BE86A8CEAEB7");
@@ -60,7 +52,7 @@ public partial class DbapiContext : DbContext
             entity.ToTable("COBRANZA");
 
             entity.Property(e => e.Descripcion)
-                .HasMaxLength(50)
+                .HasMaxLength(200)
                 .IsUnicode(false);
             entity.Property(e => e.FechaDeCobro).HasColumnName("fechaDeCobro");
             entity.Property(e => e.Importe).HasColumnType("decimal(10, 2)");
@@ -75,7 +67,6 @@ public partial class DbapiContext : DbContext
         });
 
         //ModelBuilder Factura
-
         modelBuilder.Entity<Factura>(entity =>
         {
             entity.HasKey(e => e.IdFactura).HasName("PK__FACTURA__50E7BAF1153F5D44");
@@ -83,7 +74,7 @@ public partial class DbapiContext : DbContext
             entity.ToTable("FACTURA");
 
             entity.Property(e => e.Descripcion)
-                .HasMaxLength(50)
+                .HasMaxLength(200)
                 .IsUnicode(false);
             entity.Property(e => e.PrecioTotal).HasColumnType("decimal(10, 2)");
 
@@ -93,7 +84,6 @@ public partial class DbapiContext : DbContext
         });
 
         //ModelBuilder Factura Productos
-
         modelBuilder.Entity<Facturaproducto>(entity =>
         {
             entity.HasKey(e => e.IdFacturaProductos).HasName("PK__FACTURAP__36F787A4DE48DE03");
@@ -110,7 +100,6 @@ public partial class DbapiContext : DbContext
         });
 
         //ModeBuilder Medio De Pago
-
         modelBuilder.Entity<Mediodepago>(entity =>
         {
             entity.HasKey(e => e.IdMedioDePago).HasName("PK__MEDIODEP__6B4A4BA22B848B08");
@@ -118,13 +107,12 @@ public partial class DbapiContext : DbContext
             entity.ToTable("MEDIODEPAGO");
 
             entity.Property(e => e.Descripcion)
-                .HasMaxLength(50)
+                .HasMaxLength(200)
                 .IsUnicode(false)
                 .HasColumnName("descripcion");
         });
 
         //ModeBuilder Producto
-
         modelBuilder.Entity<Producto>(entity =>
         {
             entity.HasKey(e => e.IdProducto).HasName("PK__PRODUCTO__0988921094777190");
@@ -132,12 +120,11 @@ public partial class DbapiContext : DbContext
             entity.ToTable("PRODUCTO");
 
             entity.Property(e => e.Descripcion)
-                .HasMaxLength(50)
+                .HasMaxLength(200)
                 .IsUnicode(false);
             entity.Property(e => e.FechaVencimiento).HasColumnName("fechaVencimiento");
             entity.Property(e => e.PrecioVenta).HasColumnType("decimal(10, 2)");
         });
-
         OnModelCreatingPartial(modelBuilder);
     }
 

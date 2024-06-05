@@ -1,4 +1,6 @@
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using SistemaDeVentasCafe;
 using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
@@ -31,13 +33,18 @@ builder.Services.AddScoped<IRepositoryGeneric<Producto>, RepositoryProducto>();
 builder.Services.AddScoped<IRepositoryGeneric<Factura>, RepositoryFactura>();
 builder.Services.AddScoped<IRepositoryFacturaProducto, RepositoryFacturaProducto>();
 builder.Services.AddScoped<IRepositoryGeneric<Cobranza>, RepositoryCobranza>();
+builder.Services.AddScoped<IRepositoryMedioDePago, RepositoryMedioDePago>();
 //service
 builder.Services.AddScoped<IServiceGeneric<ClienteUpdateDto, ClienteCreateDto>, ServiceCliente>();
 builder.Services.AddScoped<IServiceGeneric<ProductoUpdateDto, ProductoCreateDto>, ServiceProducto>();
 builder.Services.AddScoped<IServiceFactura, ServiceFactura>();
 builder.Services.AddScoped<IServiceGeneric<CobranzaUpdateDto, CobranzaCreateDto>, ServiceCobranza>();
+builder.Services.AddScoped<IServiceMedioDePago, ServiceMedioDePago>();
 //unitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//validaciones
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+builder.Services.AddFluentValidationAutoValidation();
 
 //Configuracion de conversion de JSON para que no se produzcan ciclos
 builder.Services.AddControllers().AddJsonOptions(opt =>

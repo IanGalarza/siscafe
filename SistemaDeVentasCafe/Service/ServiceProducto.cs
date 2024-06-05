@@ -103,9 +103,15 @@ namespace SistemaDeVentasCafe.Service
             try
             {
                 var producto = await _unitOfWork.repositoryProducto.ObtenerPorId(id);
+                var listafacturas = await _unitOfWork.repositoryFacturaProducto.ListarTodos();
                 if (producto == null)
                 {
                     _logger.LogError("No existe un producto con esa id.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                if (!Utilidades.PrevenirEliminarProducto(listafacturas, producto.IdProducto))
+                {
+                    _logger.LogError("El producto no se puede eliminar porque hay una factura que esta relacionada con el.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 await _unitOfWork.repositoryProducto.Eliminar(producto);

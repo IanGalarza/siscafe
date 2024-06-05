@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using QRCoder;
 using SistemaDeVentasCafe.Models;
 using System.Net;
 
@@ -42,7 +43,7 @@ namespace SistemaDeVentasCafe.CodigoRepetido
             return apiresponse;
         }
 
-        public static APIResponse OKResponse<T>(T obj,APIResponse apiresponse) //respuesta para los notfound
+        public static APIResponse OKResponse<T>(T obj, APIResponse apiresponse) //respuesta para los notfound
         {
             apiresponse.fueExitoso = true;
             apiresponse.statusCode = HttpStatusCode.OK;
@@ -70,6 +71,45 @@ namespace SistemaDeVentasCafe.CodigoRepetido
             apiresponse.fueExitoso = false;
             apiresponse.statusCode = HttpStatusCode.Conflict;
             return apiresponse;
+        }
+
+        public static APIResponse GeneradorQR(APIResponse apiresponse, string descripcion)
+        {
+            QRCodeGenerator qrGenerator = new QRCodeGenerator();
+            QRCodeData qRCodeData = qrGenerator.CreateQrCode(descripcion, QRCodeGenerator.ECCLevel.Q);
+            PngByteQRCode qrCode = new PngByteQRCode(qRCodeData);
+            byte[] qrCodeImage = qrCode.GetGraphic(20);
+            string model = Convert.ToBase64String(qrCodeImage);
+            //Retorna el model que tiene la imagen del codigo QR en base 64.
+            apiresponse.statusCode = HttpStatusCode.OK;
+            apiresponse.fueExitoso = true;
+            apiresponse.Resultado = model;
+            return apiresponse;
+        }
+
+        public static bool PrevenirEliminarCliente(List<Factura> lista, int id)
+        {
+            foreach (var i in lista)
+            {
+                if (i.IdCliente == id)
+                {
+                    return false;
+                }
+            }
+            return true;
+
+        }
+
+        public static bool PrevenirEliminarProducto(List<Facturaproducto> lista, int id)
+        {
+            foreach (var i in lista)
+            {
+                if (i.IdProducto == id)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

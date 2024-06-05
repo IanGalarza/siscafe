@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using iTextSharp.xmp.impl;
 using Microsoft.AspNetCore.Mvc;
 using SistemaDeVentasCafe.CodigoRepetido;
 using SistemaDeVentasCafe.DTOs;
@@ -103,9 +104,15 @@ namespace SistemaDeVentasCafe.Service
             try
             {
                 var cliente = await _unitOfWork.repositoryCliente.ObtenerPorId(id);
+                var listafacturas = await _unitOfWork.repositoryFactura.ListarTodos();
                 if (cliente == null)
                 {
                     _logger.LogError("No existe un cliente con esa id.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                if (!Utilidades.PrevenirEliminarCliente(listafacturas, cliente.IdCliente))
+                {
+                    _logger.LogError("El cliente no se puede eliminar porque hay una factura que contiene su Id.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 await _unitOfWork.repositoryCliente.Eliminar(cliente);

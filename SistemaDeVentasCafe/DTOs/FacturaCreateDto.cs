@@ -2,8 +2,6 @@
 
 namespace SistemaDeVentasCafe.DTOs
 {
-    public record FacturaCreateDto(DateOnly FechaFactura,
-                                   int IdCliente,
-                                   bool EstadoPago,
+    public record FacturaCreateDto(int IdCliente,
                                    ICollection<Facturaproducto> Lista_De_Productos);
 }

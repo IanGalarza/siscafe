@@ -550,3 +550,10 @@ C:\Users\ianga\OneDrive\Escritorio\copia trabajo final ing soft\siscafe-main\Sis
 C:\Users\ianga\OneDrive\Escritorio\copia trabajo final ing soft\siscafe-main\SistemaDeVentasCafe\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\ianga\OneDrive\Escritorio\copia trabajo final ing soft\siscafe-main\SistemaDeVentasCafe\bin\Debug\net8.0\itextsharp.dll
 C:\Users\ianga\OneDrive\Escritorio\copia trabajo final ing soft\siscafe-main\SistemaDeVentasCafe\bin\Debug\net8.0\QRCoder.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\itextsharp.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\QRCoder.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Mvc.dll
+C:\Users\cabed\OneDrive\Desktop\Curso\c_sharp\siscafe\SistemaDeVentasCafe\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Shared.dll

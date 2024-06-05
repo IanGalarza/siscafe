@@ -9,20 +9,20 @@ namespace SistemaDeVentasCafe.UnitOfWork
         public IRepositoryGeneric<Cliente> repositoryCliente { get; }
         public IRepositoryGeneric<Producto> repositoryProducto { get; }
         public IRepositoryGeneric<Factura> repositoryFactura { get; }
-        public IRepositoryFacturaProducto repositoryFacturaProducto { get; }
-
         public IRepositoryGeneric<Cobranza> repositoryCobranza { get; }
+        public IRepositoryFacturaProducto repositoryFacturaProducto { get; }
+        public IRepositoryMedioDePago repositoryMedioDePago { get; }
 
         public UnitOfWork(DbapiContext context, IRepositoryGeneric<Cliente> _repositoryCliente, IRepositoryGeneric<Producto> _repositoryProducto, IRepositoryGeneric<Factura> _repositoryFactura,
-               IRepositoryFacturaProducto repositoryFacturaProducto, IRepositoryGeneric<Cobranza> repositoryCobranza)
+               IRepositoryFacturaProducto _repositoryFacturaProducto, IRepositoryGeneric<Cobranza> _repositoryCobranza, IRepositoryMedioDePago _repositoryMedioDePago)
         {
             _context = context;
             repositoryCliente = _repositoryCliente;
             repositoryProducto = _repositoryProducto;
             repositoryFactura = _repositoryFactura;
-            this.repositoryFacturaProducto = repositoryFacturaProducto;
-            this.repositoryCobranza = repositoryCobranza;
-
+            repositoryFacturaProducto = _repositoryFacturaProducto;
+            repositoryCobranza = _repositoryCobranza;
+            repositoryMedioDePago = _repositoryMedioDePago;
         }
         public async Task Save() => await _context.SaveChangesAsync();
     }

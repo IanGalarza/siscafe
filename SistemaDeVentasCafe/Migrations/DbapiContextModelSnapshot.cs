@@ -58,6 +58,42 @@ namespace SistemaDeVentasCafe.Migrations
                     b.ToTable("CLIENTE", (string)null);
                 });
 
+            modelBuilder.Entity("SistemaDeVentasCafe.Models.Cobranza", b =>
+                {
+                    b.Property<int>("IdCobranza")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCobranza"));
+
+                    b.Property<string>("Descripcion")
+                        .HasMaxLength(200)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<DateOnly?>("FechaDeCobro")
+                        .HasColumnType("date")
+                        .HasColumnName("fechaDeCobro");
+
+                    b.Property<decimal?>("Importe")
+                        .HasColumnType("decimal(10, 2)");
+
+                    b.Property<int>("MedioDePago")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NumeroFactura")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdCobranza")
+                        .HasName("PK__COBRANZA__7B29BE86A8CEAEB7");
+
+                    b.HasIndex("MedioDePago");
+
+                    b.HasIndex("NumeroFactura");
+
+                    b.ToTable("COBRANZA", (string)null);
+                });
+
             modelBuilder.Entity("SistemaDeVentasCafe.Models.Factura", b =>
                 {
                     b.Property<int>("IdFactura")
@@ -70,9 +106,9 @@ namespace SistemaDeVentasCafe.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Descripcion")
-                        .HasMaxLength(50)
+                        .HasMaxLength(200)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("varchar(200)");
 
                     b.Property<bool?>("EstadoPago")
                         .HasColumnType("bit");
@@ -80,7 +116,7 @@ namespace SistemaDeVentasCafe.Migrations
                     b.Property<DateOnly?>("FechaFactura")
                         .HasColumnType("date");
 
-                    b.Property<int?>("IdCliente")
+                    b.Property<int>("IdCliente")
                         .HasColumnType("int");
 
                     b.Property<decimal?>("PrecioTotal")
@@ -102,13 +138,13 @@ namespace SistemaDeVentasCafe.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdFacturaProductos"));
 
-                    b.Property<int>("CantidadDelProducto")
+                    b.Property<int?>("CantidadDelProducto")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IdFactura")
+                    b.Property<int>("IdFactura")
                         .HasColumnType("int");
 
-                    b.Property<int?>("IdProducto")
+                    b.Property<int>("IdProducto")
                         .HasColumnType("int");
 
                     b.HasKey("IdFacturaProductos")
@@ -121,6 +157,53 @@ namespace SistemaDeVentasCafe.Migrations
                     b.ToTable("FACTURAPRODUCTOS", (string)null);
                 });
 
+            modelBuilder.Entity("SistemaDeVentasCafe.Models.Mediodepago", b =>
+                {
+                    b.Property<int>("IdMedioDePago")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMedioDePago"));
+
+                    b.Property<string>("Apellido")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CodigoDeSeguridad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descripcion")
+                        .HasMaxLength(200)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(200)")
+                        .HasColumnName("descripcion");
+
+                    b.Property<string>("DireccionDeFacturacion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly?>("FechaDeCaducidad")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Localidad")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumeroDeTarjeta")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Pais")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Telefono")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdMedioDePago")
+                        .HasName("PK__MEDIODEP__6B4A4BA22B848B08");
+
+                    b.ToTable("MEDIODEPAGO", (string)null);
+                });
+
             modelBuilder.Entity("SistemaDeVentasCafe.Models.Producto", b =>
                 {
                     b.Property<int>("IdProducto")
@@ -130,9 +213,9 @@ namespace SistemaDeVentasCafe.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProducto"));
 
                     b.Property<string>("Descripcion")
-                        .HasMaxLength(50)
+                        .HasMaxLength(200)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("varchar(200)");
 
                     b.Property<DateOnly?>("FechaVencimiento")
                         .HasColumnType("date")
@@ -153,11 +236,34 @@ namespace SistemaDeVentasCafe.Migrations
                     b.ToTable("PRODUCTO", (string)null);
                 });
 
+            modelBuilder.Entity("SistemaDeVentasCafe.Models.Cobranza", b =>
+                {
+                    b.HasOne("SistemaDeVentasCafe.Models.Mediodepago", "MedioDePagoNavigation")
+                        .WithMany("Cobranzas")
+                        .HasForeignKey("MedioDePago")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_MEDIODEPAGO");
+
+                    b.HasOne("SistemaDeVentasCafe.Models.Factura", "NumeroFacturaNavigation")
+                        .WithMany("Cobranzas")
+                        .HasForeignKey("NumeroFactura")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_NUMEROFACTURA");
+
+                    b.Navigation("MedioDePagoNavigation");
+
+                    b.Navigation("NumeroFacturaNavigation");
+                });
+
             modelBuilder.Entity("SistemaDeVentasCafe.Models.Factura", b =>
                 {
                     b.HasOne("SistemaDeVentasCafe.Models.Cliente", "fCliente")
                         .WithMany("Facturas")
                         .HasForeignKey("IdCliente")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("FK_IDCLIENTE");
 
                     b.Navigation("fCliente");
@@ -168,11 +274,15 @@ namespace SistemaDeVentasCafe.Migrations
                     b.HasOne("SistemaDeVentasCafe.Models.Factura", "fFactura")
                         .WithMany("Lista_De_Productos")
                         .HasForeignKey("IdFactura")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("FK_IDFACTURA");
 
                     b.HasOne("SistemaDeVentasCafe.Models.Producto", "fProducto")
                         .WithMany("Facturaproductos")
                         .HasForeignKey("IdProducto")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("FK_IDPRODUCTO");
 
                     b.Navigation("fFactura");
@@ -187,7 +297,14 @@ namespace SistemaDeVentasCafe.Migrations
 
             modelBuilder.Entity("SistemaDeVentasCafe.Models.Factura", b =>
                 {
+                    b.Navigation("Cobranzas");
+
                     b.Navigation("Lista_De_Productos");
+                });
+
+            modelBuilder.Entity("SistemaDeVentasCafe.Models.Mediodepago", b =>
+                {
+                    b.Navigation("Cobranzas");
                 });
 
             modelBuilder.Entity("SistemaDeVentasCafe.Models.Producto", b =>

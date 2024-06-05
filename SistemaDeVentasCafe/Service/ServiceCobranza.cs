@@ -14,14 +14,12 @@ namespace SistemaDeVentasCafe.Service
         private readonly IMapper _mapper;
         private readonly APIResponse _apiresponse;
         private readonly ILogger<ServiceCobranza> _logger;
-        public readonly DbapiContext _dbapiContext;               //Arreglar
-        public ServiceCobranza(IMapper mapper, APIResponse apiresponse, ILogger<ServiceCobranza> logger, IUnitOfWork unitOfWork, DbapiContext dbapiContext)
+        public ServiceCobranza(IMapper mapper, APIResponse apiresponse, ILogger<ServiceCobranza> logger, IUnitOfWork unitOfWork)
         {
             _mapper = mapper;
             _apiresponse = apiresponse;
             _logger = logger;
             _unitOfWork = unitOfWork;
-            _dbapiContext = dbapiContext;
         }
 
         public async Task<APIResponse> Listar()
@@ -62,7 +60,6 @@ namespace SistemaDeVentasCafe.Service
             }
         }
 
-
         //Hay que hacer que al momento de crear la cobranza agarre el precio a pagar de la factura que esta relacionada y lo ponga ahi
         //Tambien hay que hacer que se ponga la fecha automaticamente del momento en la que se creo.
         //Y al momento de crearse una cobranza y poner la ID del medio de pago, que agarre la descripcion de este y lo meta en la cobranza asi se sabe con que pago.
@@ -71,6 +68,23 @@ namespace SistemaDeVentasCafe.Service
             try
             {
                 var cobranza = _mapper.Map<Cobranza>(cobranzaCreateDto);
+                var factura = await _unitOfWork.repositoryFactura.ObtenerPorId(cobranza.NumeroFactura);
+                var metodoDePago = await _unitOfWork.repositoryMedioDePago.ObtenerPorId(cobranza.MedioDePago);
+                if (factura == null)
+                {
+                    _logger.LogError("No existe factura con ese número.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                if (metodoDePago == null)
+                {
+                    _logger.LogError("No existe metodo de pago asociado con el id ingresado..");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                cobranza.Descripcion = metodoDePago.Descripcion; //coloco la descirpcion del metodo de pago en la de la cobranza
+                factura.EstadoPago = true;
+                cobranza.Importe = factura.PrecioTotal;
+                cobranza.FechaDeCobro = DateOnly.FromDateTime(DateTime.Now);
+                await _unitOfWork.repositoryFactura.Actualizar(factura); //actualizo estado de pago
                 await _unitOfWork.repositoryCobranza.Crear(cobranza);
                 await _unitOfWork.Save();
                 _logger.LogInformation("Cobranza creada con exito.");
@@ -89,10 +103,11 @@ namespace SistemaDeVentasCafe.Service
                 var cobranza = await _unitOfWork.repositoryCobranza.ObtenerPorId(cobranzaUpdateDto.IdCobranza);
                 if (cobranza == null)
                 {
-                    _logger.LogError("No existe una Cobranza con esa id.");
+                    _logger.LogError("No existe una cobranza con esa id.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 _mapper.Map(cobranzaUpdateDto, cobranza);
+                cobranza.FechaDeCobro = DateOnly.FromDateTime(DateTime.Now);
                 await _unitOfWork.repositoryCobranza.Actualizar(cobranza);
                 await _unitOfWork.Save();
                 _logger.LogInformation("Cobranza actualizada con exito.");
@@ -116,7 +131,7 @@ namespace SistemaDeVentasCafe.Service
                 }
                 await _unitOfWork.repositoryCobranza.Eliminar(cobranza);
                 await _unitOfWork.Save();
-                _logger.LogInformation("cobranza eliminada con exito.");
+                _logger.LogInformation("Cobranza eliminada con exito.");
                 return Utilidades.OKResponse(cobranza, _apiresponse);
             }
             catch (Exception ex)

@@ -1,7 +1,6 @@
 ﻿namespace SistemaDeVentasCafe.DTOs
 {
-    public record FacturaUpdateDto(int IdFactura,
-                                   DateOnly FechaFactura,
+    public record FacturaGetDto(int IdFactura,
                                    int CantidadProductos,
                                    string Descripcion,
                                    decimal PrecioTotal,
