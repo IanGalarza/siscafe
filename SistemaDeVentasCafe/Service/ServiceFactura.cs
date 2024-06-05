@@ -135,13 +135,6 @@ namespace SistemaDeVentasCafe.Service
                 listaProductos = listaProductos.ToList();
                 //Creacion del PDF.
                 string logpath = @"C:\Users\" + Environment.UserName + @"\Downloads\factura" + Factura.IdFactura.ToString() + ".pdf";
-               /*if (!System.IO.File.Exists(logpath))
-                    {
-                        FileStream fs = System.IO.File.Create(logpath);
-                        fs.Close();
-                    }    
-                System.IO.File.AppendAllText(logpath, Factura.ToString());
-                */
                 iTextSharp.text.Document doc = new iTextSharp.text.Document();
                 PdfWriter.GetInstance(doc, new FileStream(logpath, FileMode.Create));
                 doc.Open();
