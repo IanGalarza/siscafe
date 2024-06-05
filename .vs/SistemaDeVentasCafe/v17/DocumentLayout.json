@@ -1,149 +1,147 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\",
+  "WorkspaceRootPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\facturacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\facturacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\facturacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\service\\servicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\service\\servicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\facturaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\facturaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\facturaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\productocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\productocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\productocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\productoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\productoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\productoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\migrations\\20240527003759_segundamigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\migrations\\20240527003759_segundamigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\migrations\\20240527003759_segundamigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\apiresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\dbapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\dbapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\dbapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\facturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\facturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\facturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\irepository\\irepositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\irepository\\irepositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\irepository\\irepositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\irepository\\irepositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\irepository\\irepositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\irepository\\irepositorygeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\repositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\repositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositorycliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\repositoryfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\repositoryfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositoryfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\repositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\repositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositoryfacturaproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\repository\\repositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\repository\\repositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositoryproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\service\\iservice\\iservicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\service\\iservice\\iservicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\iservice\\iservicefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\service\\iservice\\iservicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\service\\iservice\\iservicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\iservice\\iservicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\service\\servicecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\service\\servicecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\codigorepetido\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\codigorepetido\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\codigorepetido\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\service\\serviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\service\\serviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\serviceproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\clientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\clientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\clientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\curso\\c_sharp\\siscafe\\sistemadeventascafe\\dtos\\clienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\siscafe\\sistemadeventascafe\\dtos\\clienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\clienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -153,80 +151,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "RepositoryFacturaProducto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\RepositoryFacturaProducto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T07:53:21.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T07:53:21.14Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "IRepositoryFacturaProducto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryFacturaProducto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T07:52:24.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T07:52:24.291Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ServiceFactura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAIwGAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T23:40:46.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T23:40:46.375Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "ServiceCliente.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:48:49.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:48:49.1Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "ServiceProducto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceProducto.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T02:24:42.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T02:24:42.495Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FacturaCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,282 +234,261 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FacturaController.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Controllers\\FacturaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:48:57.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T22:48:57.778Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ProductoCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\ProductoCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:15:02.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:15:02.125Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Facturaproducto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\Facturaproducto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T00:03:13.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T00:03:13.185Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Program.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Program.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Program.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Program.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:50:17.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T16:50:17.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "RepositoryFactura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\RepositoryFactura.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T23:14:33.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T23:14:33.301Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Factura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Factura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Factura.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Factura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Factura.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\Factura.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T23:51:50.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T23:51:50.089Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "IServiceFactura.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\IService\\IServiceFactura.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T06:22:56.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T06:22:56.349Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "IServiceGeneric.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\IService\\IServiceGeneric.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:47:02.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:47:02.862Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\UnitOfWork\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:49:54.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:49:54.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ProductoUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\ProductoUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:16:13.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:16:13.844Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "IRepositoryGeneric.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryGeneric.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:21:08.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:21:08.19Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "RepositoryCliente.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\RepositoryCliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:23:14.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:23:14.688Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\UnitOfWork\\UnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:50:09.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:50:09.77Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Cliente.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\Cliente.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T09:36:37.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T09:36:37.307Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "DbapiContext.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\DbapiContext.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\DbapiContext.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\DbapiContext.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\DbapiContext.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\DbapiContext.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\DbapiContext.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAAwBAAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:42:55.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T16:42:55.631Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Controllers\\ClienteController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T00:41:59.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T00:41:59.034Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\Producto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:57:21.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:57:21.155Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Utilidades.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\CodigoRepetido\\Utilidades.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAkwEYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T00:50:49.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T00:50:49.534Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "20240527003759_segundaMigracion.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Migrations\\20240527003759_segundaMigracion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T00:37:59.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T00:37:59.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FacturaUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\FacturaUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T22:55:56.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T22:55:56.95Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\appsettings.json",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\appsettings.json",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\appsettings.json",
               "RelativeToolTip": "SistemaDeVentasCafe\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T16:48:14.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T16:48:14.261Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "ClienteCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\ClienteCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -522,22 +498,21 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Controllers\\ProductoController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T17:09:58.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T17:09:58.767Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "ClienteUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\ClienteUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -547,36 +522,34 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "AutomapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\AutomapperConfig.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\AutomapperConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:10:53.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:10:53.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "RepositoryProducto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\RepositoryProducto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:27:18.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:27:18.037Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
               "ToolTip": "C:\\Users\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ianga\\AppData\\Local\\Temp\\Rar$DIa24400.22530\\ProductoController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T18:33:35.987Z"
@@ -585,23 +558,22 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "APIResponse.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\siscafe\\SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Models\\APIResponse\\APIResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:47:54.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T23:47:54.265Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "20240519230415_migracion.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
+              "RelativeDocumentMoniker": "..\\..\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
               "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
+              "RelativeToolTip": "..\\..\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519230415_migracion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T23:04:15.922Z"
@@ -611,9 +583,9 @@
               "DocumentIndex": 35,
               "Title": "20240519225806_migracion.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
+              "RelativeDocumentMoniker": "..\\..\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
               "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
+              "RelativeToolTip": "..\\..\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\Migrations\\20240519225806_migracion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T22:58:06.766Z"
