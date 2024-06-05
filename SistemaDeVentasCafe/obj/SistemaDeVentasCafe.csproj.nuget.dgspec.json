@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
+    "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
+    "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "projectUniqueName": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
         "projectName": "SistemaDeVentasCafe",
-        "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
+        "projectPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj",
         "packagesPath": "C:\\Users\\cabed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\Curso\\c_sharp\\siscafe\\SistemaDeVentasCafe\\obj\\",
+        "outputPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cabed\\AppData\\Roaming\\NuGet\\NuGet.Config",
