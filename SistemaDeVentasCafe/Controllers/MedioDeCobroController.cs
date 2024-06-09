@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaDeVentasCafe.Models;
-using QRCoder;
 using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Service.IService;
 using SistemaDeVentasCafe.CodigoRepetido;
@@ -17,13 +16,13 @@ namespace SistemaDeVentasCafe.Controllers
             _service = service;
         }
 
-        [HttpPost]
+        [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("RegistrarCobroConCodigoQR")]
-        public async Task<ActionResult<APIResponse>> codigoQR([FromBody] QRCreateDto QR) 
+        public async Task<ActionResult<APIResponse>> codigoQR(int id) 
         {
-            var result = await _service.PagarConQR(QR);
+            var result = await _service.PagarConQR(id);
             return Utilidades.AyudaControlador(result);
         }
 

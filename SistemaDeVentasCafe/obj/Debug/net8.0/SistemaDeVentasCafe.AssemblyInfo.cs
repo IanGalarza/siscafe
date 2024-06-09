@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDeVentasCafe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a908e420107ed42b17b2e09ecf4ef1d3a9d2b54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57385b1ba642fa894c12dea046926cd18018c63")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDeVentasCafe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDeVentasCafe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
