@@ -509,14 +509,14 @@
     "ContainingType": "SistemaDeVentasCafe.Controllers.MedioDeCobroController",
     "Method": "codigoQR",
     "RelativePath": "api/MedioDeCobro/RegistrarCobroConCodigoQR",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "QR",
-        "Type": "SistemaDeVentasCafe.DTOs.QRCreateDto",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

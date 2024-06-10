@@ -101,12 +101,26 @@ namespace SistemaDeVentasCafe.Service
             try
             {
                 var cobranza = await _unitOfWork.repositoryCobranza.ObtenerPorId(cobranzaUpdateDto.IdCobranza);
+                var factura = await _unitOfWork.repositoryFactura.ObtenerPorId(cobranza.NumeroFactura);
+                var metodoDePago = await _unitOfWork.repositoryMedioDePago.ObtenerPorId(cobranza.MedioDePago);
                 if (cobranza == null)
                 {
                     _logger.LogError("No existe una cobranza con esa id.");
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
+                if (factura == null)
+                {
+                    _logger.LogError("No existe factura con ese número.");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
+                if (metodoDePago == null)
+                {
+                    _logger.LogError("No existe metodo de pago asociado con el id ingresado..");
+                    return Utilidades.NotFoundResponse(_apiresponse);
+                }
                 _mapper.Map(cobranzaUpdateDto, cobranza);
+                cobranza.Descripcion = metodoDePago.Descripcion;
+                cobranza.Importe = factura.PrecioTotal;
                 cobranza.FechaDeCobro = DateOnly.FromDateTime(DateTime.Now);
                 await _unitOfWork.repositoryCobranza.Actualizar(cobranza);
                 await _unitOfWork.Save();

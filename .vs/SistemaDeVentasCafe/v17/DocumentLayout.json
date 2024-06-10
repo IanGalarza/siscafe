@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\servicecobranza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicecobranza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\dtos\\cobranzaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\cobranzaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\dtos\\cobranzacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\cobranzacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\repository\\repositorymediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositorymediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\iservice\\iservicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\iservice\\iservicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicemediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\controllers\\mediodecobrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\servicecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicecliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\repository\\repositorymediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\repository\\repositorymediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\repository\\irepository\\irepositorymediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,20 +83,8 @@
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\models\\mediodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\dtos\\cobranzaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\cobranzaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\service\\servicecobranza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\service\\servicecobranza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\dtos\\facturacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\facturacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\dtos\\cobranzacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|solutionrelative:sistemadeventascafe\\dtos\\cobranzacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B1EC7E7-08FB-41C9-AD5C-13FBB6D14A76}|SistemaDeVentasCafe\\SistemaDeVentasCafe.csproj|c:\\users\\cabed\\onedrive\\desktop\\siscafe\\sistemadeventascafe\\models\\cobranza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -202,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,7 +210,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IServiceMedioDePago.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T04:44:58.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCliente.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA5wDUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T23:48:49.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutomapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\AutomapperConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T05:28:52.842Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MedioDeCobroController.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:11:47.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CobranzaUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T00:42:53.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceCobranza.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAowHYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T22:16:46.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Program.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Program.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T16:50:17.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IRepositoryMedioDePago.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryMedioDePago.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\IRepository\\IRepositoryMedioDePago.cs",
@@ -222,15 +308,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Program.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Program.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAAlAAAA",
+              "DocumentIndex": 3,
+              "Title": "CobranzaCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
+              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
+              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
+              "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:50:17.618Z",
+              "WhenOpened": "2024-06-05T00:42:53.069Z",
               "EditorCaption": ""
             },
             {
@@ -241,14 +327,14 @@
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceMedioDePago.cs",
               "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceMedioDePago.cs",
               "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceMedioDePago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAwAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowEoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T04:47:43.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "RepositoryMedioDePago.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Repository\\RepositoryMedioDePago.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Repository\\RepositoryMedioDePago.cs",
@@ -256,64 +342,11 @@
               "RelativeToolTip": "SistemaDeVentasCafe\\Repository\\RepositoryMedioDePago.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:39:26.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T04:39:26.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IServiceMedioDePago.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\IService\\IServiceMedioDePago.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T04:44:58.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceCliente.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceCliente.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA5wDUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T23:48:49.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AutomapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\AutomapperConfig.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\AutomapperConfig.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\AutomapperConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T05:28:52.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MedioDeCobroController.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Controllers\\MedioDeCobroController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T21:11:47.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ServiceFactura.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceFactura.cs",
@@ -325,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "MedioDePagoCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\MedioDePagoCreateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\MedioDePagoCreateDto.cs",
@@ -337,19 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CobranzaUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\CobranzaUpdateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T00:42:53.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MedioDePagoCreateValidaciones.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Validaciones\\MedioDePagoCreateValidaciones.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Validaciones\\MedioDePagoCreateValidaciones.cs",
@@ -361,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ClienteCreateValidaciones.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Validaciones\\ClienteCreateValidaciones.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Validaciones\\ClienteCreateValidaciones.cs",
@@ -373,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ClienteUpdateValidaciones.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Validaciones\\ClienteUpdateValidaciones.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Validaciones\\ClienteUpdateValidaciones.cs",
@@ -385,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ProductoCreateValidaciones.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Validaciones\\ProductoCreateValidaciones.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Validaciones\\ProductoCreateValidaciones.cs",
@@ -397,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ProductoUpdateValidaciones.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Validaciones\\ProductoUpdateValidaciones.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Validaciones\\ProductoUpdateValidaciones.cs",
@@ -409,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Mediodepago.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Models\\Mediodepago.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Mediodepago.cs",
@@ -421,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Models\\Cliente.cs",
@@ -433,19 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ServiceCobranza.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\Service\\ServiceCobranza.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAgwG0AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T22:16:46.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FacturaCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
               "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\FacturaCreateDto.cs",
@@ -454,18 +463,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T22:52:04.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CobranzaCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
-              "RelativeDocumentMoniker": "SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
-              "ToolTip": "C:\\Users\\cabed\\OneDrive\\Desktop\\siscafe\\SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
-              "RelativeToolTip": "SistemaDeVentasCafe\\DTOs\\CobranzaCreateDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T00:42:53.069Z"
             },
             {
               "$type": "Document",
