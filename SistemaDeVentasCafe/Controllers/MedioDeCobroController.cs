@@ -20,30 +20,30 @@ namespace SistemaDeVentasCafe.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("RegistrarCobroConCodigoQR")]
-        public async Task<ActionResult<Mediodepago>> codigoQR(int id) 
+        public async Task<ActionResult<APIResponse>> codigoQR(int id) 
         {
             var result = await _service.PagarConQR(id);
-            return result;
+            return Utilidades.AyudaControlador(result);
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("RegistrarCobroConTarjetaDeDebito")]
-        public async Task<ActionResult<Mediodepago>> tarjetaDebito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<ActionResult<APIResponse>> tarjetaDebito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             var result = await _service.PagarConDebito(tarjeta);
-            return result;
+            return Utilidades.AyudaControlador(result);
         }
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [Route("RegistrarCobroConTarjetaDeCredito")]
-        public async Task<ActionResult<Mediodepago>> tarjetaCredito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<ActionResult<APIResponse>> tarjetaCredito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             var result = await _service.PagarConCredito(tarjeta);
-            return result;
+            return Utilidades.AyudaControlador(result);
         }
     }
 }

@@ -24,7 +24,7 @@ namespace SistemaDeVentasCafe.Service
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<Mediodepago> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<APIResponse> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             try
             {
@@ -32,15 +32,15 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Tarjeta De Credito.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return cod;
+                return Utilidades.CreatedResponse(_apiresponse);
             }
             catch (Exception ex)
             {
-                return null;
+                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
             }
         }
 
-        public async Task<Mediodepago> PagarConDebito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<APIResponse> PagarConDebito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             try
             {
@@ -48,15 +48,15 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Tarjeta De Debito.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return cod;
+                return Utilidades.CreatedResponse(_apiresponse);
             }
             catch (Exception ex)
             {
-                return null;
+                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
             }
         }
 
-        public async Task<Mediodepago> PagarConQR(int idCliente)
+        public async Task<APIResponse> PagarConQR(int idCliente)
         {
             try
             {
@@ -73,11 +73,11 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Codigo QR.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return cod;
+                return Utilidades.CreatedResponse(_apiresponse);
             }
             catch (Exception ex)
             {
-                return null;
+                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
             }
         }
     }
