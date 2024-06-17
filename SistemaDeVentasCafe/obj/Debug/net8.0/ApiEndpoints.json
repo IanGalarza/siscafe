@@ -521,7 +521,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "Type": "SistemaDeVentasCafe.Models.Mediodepago",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -552,7 +552,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "Type": "SistemaDeVentasCafe.Models.Mediodepago",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -583,7 +583,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SistemaDeVentasCafe.Models.APIResponse",
+        "Type": "SistemaDeVentasCafe.Models.Mediodepago",
         "MediaTypes": [
           "text/plain",
           "application/json",

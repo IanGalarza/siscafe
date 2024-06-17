@@ -5,6 +5,7 @@ using SistemaDeVentasCafe.DTOs;
 using SistemaDeVentasCafe.Models;
 using SistemaDeVentasCafe.Service.IService;
 using SistemaDeVentasCafe.UnitOfWork;
+using System.Reflection.Metadata.Ecma335;
 
 namespace SistemaDeVentasCafe.Service
 {
@@ -23,7 +24,7 @@ namespace SistemaDeVentasCafe.Service
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<APIResponse> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<Mediodepago> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             try
             {
@@ -31,15 +32,15 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Tarjeta De Credito.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return Utilidades.CreatedResponse(_apiresponse);
+                return cod;
             }
             catch (Exception ex)
             {
-                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
+                return null;
             }
         }
 
-        public async Task<APIResponse> PagarConDebito([FromBody] MedioDePagoCreateDto tarjeta)
+        public async Task<Mediodepago> PagarConDebito([FromBody] MedioDePagoCreateDto tarjeta)
         {
             try
             {
@@ -47,15 +48,15 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Tarjeta De Debito.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return Utilidades.CreatedResponse(_apiresponse);
+                return cod;
             }
             catch (Exception ex)
             {
-                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
+                return null;
             }
         }
 
-        public async Task<APIResponse> PagarConQR(int idCliente)
+        public async Task<Mediodepago> PagarConQR(int idCliente)
         {
             try
             {
@@ -63,7 +64,7 @@ namespace SistemaDeVentasCafe.Service
                 if (cliente == null)
                 {
                     _logger.LogError("No existe cliente con ese id.");
-                    return Utilidades.NotFoundResponse(_apiresponse);
+                    return null;
                 }
                 Mediodepago cod = new();
                 cod.Nombre = cliente.Nombre;
@@ -72,11 +73,11 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Codigo QR.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return Utilidades.GeneradorQR(_apiresponse, cod.Descripcion);
+                return cod;
             }
             catch (Exception ex)
             {
-                return Utilidades.ErrorHandling(ex, _apiresponse, _logger);
+                return null;
             }
         }
     }

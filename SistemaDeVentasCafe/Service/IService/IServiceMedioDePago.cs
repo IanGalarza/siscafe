@@ -6,8 +6,8 @@ namespace SistemaDeVentasCafe.Service.IService
 {
     public interface IServiceMedioDePago
     {
-        public Task<APIResponse> PagarConQR(int idCliente);
-        public Task<APIResponse> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta);
-        public Task<APIResponse> PagarConDebito([FromBody] MedioDePagoCreateDto trajeta);
+        public Task<Mediodepago> PagarConQR(int idCliente);
+        public Task<Mediodepago> PagarConCredito([FromBody] MedioDePagoCreateDto tarjeta);
+        public Task<Mediodepago> PagarConDebito([FromBody] MedioDePagoCreateDto trajeta);
     }
 }

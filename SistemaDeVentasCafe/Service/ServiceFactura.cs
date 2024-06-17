@@ -36,7 +36,7 @@ namespace SistemaDeVentasCafe.Service
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 _logger.LogInformation("Lista de facturas traida con exito.");
-                return Utilidades.ListOKResponse(lista, _apiresponse);
+                return Utilidades.ListOKResponse(_mapper.Map<List<FacturaGetDto>>(lista), _apiresponse);
             }
             catch (Exception ex)
             {
@@ -55,7 +55,7 @@ namespace SistemaDeVentasCafe.Service
                     return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 _logger.LogInformation("Factura traida con exito.");
-                return Utilidades.OKResponse(_mapper.Map<FacturaGetDto>(factura), _apiresponse);
+                return Utilidades.OKResponse(factura, _apiresponse);
             }
             catch (Exception ex)
             {
