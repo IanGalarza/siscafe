@@ -64,7 +64,7 @@ namespace SistemaDeVentasCafe.Service
                 if (cliente == null)
                 {
                     _logger.LogError("No existe cliente con ese id.");
-                    return null;
+                    return Utilidades.NotFoundResponse(_apiresponse);
                 }
                 Mediodepago cod = new();
                 cod.Nombre = cliente.Nombre;
@@ -73,7 +73,7 @@ namespace SistemaDeVentasCafe.Service
                 cod.Descripcion = "Pago Realizado con Codigo QR.";
                 await _unitOfWork.repositoryMedioDePago.Crear(cod);
                 await _unitOfWork.Save();
-                return Utilidades.CreatedResponse(_apiresponse);
+                return Utilidades.GeneradorQR(_apiresponse, cod);
             }
             catch (Exception ex)
             {
